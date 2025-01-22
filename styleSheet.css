@@ -1,9 +1,20 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.navbar *{background-color: black;
+color: white;}
+.navbar h1{
+    text-align: center;
+}
 .navbar{
     height: 60px;
     width: 100%;
     text-align: center;
-    background-color: black;
-    color: white;
 }
 .navbar ul{
     display: flex;
