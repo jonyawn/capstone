@@ -1,0 +1,19 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    height: 30px;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 1.25em;
+    gap: 100px;
+}
