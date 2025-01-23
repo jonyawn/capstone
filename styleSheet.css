@@ -8,6 +8,15 @@
 }
 .navbar *{background-color: black;
 color: white;}
+a *{
+    text-decoration: none;
+}
+a:hover{
+opacity: 50%;
+}
+a:visited{
+    color: purple;
+}
 .navbar h1{
     text-align: center;
 }
