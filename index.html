@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="styleSheet.css" rel="styleSheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav> 
@@ -16,14 +17,29 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
         </div>
+        </nav>
 
+        <section aria-label="Newest Photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&lt;</button>
+                <button class="carousel-button next" data-carousel-button="next">&gt;</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="IMG_5007.jpeg">
+                </li>
+                <li class="slide">
+                    <img src="IMG_5008.jpeg">
+                </li>
+                <li class="slide">
+                    <img src="processed-F59C2661-3CA4-4663-8667-6931E16B71A5.jpeg">
+                </li>
+            </ul>
+            </div>
+        </section>
         <div class="homepage">
             <h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatem nobis cum recusandae? Iusto harum fugit nihil vero necessitatibus nostrum asperiores reprehenderit rem eius! Nemo totam ipsum eaque a consequatur.</h3>
-
         </div>
-      
-    </nav>
-    </body>
+    
+</body>
 </html>
