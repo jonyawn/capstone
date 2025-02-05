@@ -108,9 +108,30 @@ h3{
 .message input{
     height: 250px;
 }
-.footer{
+.footerIndex{
     position: absolute;
-    bottom: -5%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.footerAbout{
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.footerResources{
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.footerContact{
+    position: absolute;
+    bottom: -50%;
     left: 0;
     right: 0;
     text-align: center;
