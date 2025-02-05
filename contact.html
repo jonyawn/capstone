@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="styleSheet.css" rel="styleSheet">
+    <link rel="styleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="formData.js" defer></script>
 </head>
 <body>
     <nav> 
@@ -18,8 +20,47 @@
             </ul>
 
         </div>
-        
-    
     </nav>
+    <div class="forms">
+        <h3>Have a question?<br>
+            A comment?<br>
+            A concern?<br>
+           
+        </h3>
+        <p>Leave you contact info bellow with your message and we will get back to you as soon as possible</p>
+        <form id="form" action="process.php" method="post">
+                <label for="First Name">First Name:</label>
+                <input type="text" name="firstName" placeholder="Enter First Name">
+        <br>
+        <br>
+                <label for="Last Name">Last Name:</label>
+                <input type="text" name="lastName" placeholder="Enter Last Name">
+        <br>
+        <br>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="email" placeholder="Email">
+        <br>
+        <br>
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" placeholder="Subject">
+        <br>
+        <br>
+        <div class="message">    
+            <label for="message">Message:</label>
+                <input type="message" name="message" placeholder="Message">
+        </div>
+        <br>
+        <br>
+                <input type="submit" value="Submit">
+    
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Copyright 2025</p>
+        <div class="socialMedia">
+            <a href="mailto: jonyawn@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+
+    </footer>
     </body>
 </html>

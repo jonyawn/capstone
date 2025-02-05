@@ -41,28 +41,14 @@ a:visited{
     font-size: 150%;
     gap: 15%;
 }
-.homepage{
-    border-radius: 50%;
-    margin: 0;
-    padding: 0px;
-}
-h3{
-    color: black;
-}
-.carousel{
-    width: 100%;
-    height: 86.5%;
-    position: absolute;
-}
 .carousel > ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    height: 50%;
 }
 .slide{
     position: absolute;
-
+    
     opacity: 0;
 }
 .slide > img{
@@ -89,15 +75,54 @@ h3{
     background-color: rgba(0, 0, 0, .5);
 
 }
-.carousel-button:hover,
-.carousel-button:focus{
+.carousel-button:hover{
     color: white;
     background-color: rgba(0, 0, 0, .2);
 }
 .carousel-button.prev{
-    left: 1rem;
+    left: 7rem;
 }
 .carousel-button.next{
-    right: 1rem;
+    right: 7rem;
 }
-
+.homepage{
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    display: block;
+}
+h3{
+    color: black;
+}
+.forms{
+    text-align: center;
+    width: 500px;
+    clear: both;
+    margin: auto;
+}
+.forms input{
+    width: 500px;
+    clear: both;
+}
+.message input{
+    height: 250px;
+}
+.footer{
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 2.5em;
+}
+.aboutUs img{
+    float: right;
+    border: solid;
+}
