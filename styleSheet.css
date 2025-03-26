@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.navbar *{background-color: black;
+.navbar *{background-color: #00713D;
 color: white;
 padding: 0;
 margin: 0;
@@ -14,22 +14,22 @@ color: #fff;
 a{
     text-decoration: none;
 }
+a:active{
+    color: #710034;
+    }
+a:visited{
+    color:white;
+}
 a:hover{
 opacity: 50%;
-}
-a:visited{
-    color: white;
-}
-.navbar h1{
-    text-align: center;
-    font-size: 150%;
-}
+    }
 .navbar{
     height: 100%;
     width: 100%;
     text-align: center;
     position: relative;
 }
+
 .navbar ul{
     display: flex;
     justify-content: center;
@@ -79,17 +79,17 @@ a:visited{
     background-color: rgba(0, 0, 0, .2);
 }
 .carousel-button.prev{
-    left: 7rem;
+    left: 2rem;
 }
 .carousel-button.next{
-    right: 7rem;
+    right: 2rem;
 }
 .homepage{
     border-radius: 50%;
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 2.5%;
+    bottom: -6.25%;
     display: block;
 }
 h3{
@@ -139,10 +139,14 @@ h3{
 .socialMedia{
     display: flex;
     justify-content: center;
-    padding: 5px;
-    font-size: 2.5em;
+    padding: 0;
+    font-size: 1.5em;
 }
 .aboutUs img{
     float: right;
     border: solid;
+}
+.active{
+    font-weight: bold;
+    text-decoration: underline;
 }
