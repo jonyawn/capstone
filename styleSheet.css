@@ -142,6 +142,9 @@ h3{
     padding: 0;
     font-size: 1.5em;
 }
+.socialMedia a{
+    color: #00713D;
+}
 .aboutUs img{
     float: right;
     border: solid;
