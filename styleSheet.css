@@ -89,7 +89,7 @@ opacity: 50%;
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: -6.25%;
+    top: 100%;
     display: block;
 }
 h3{
@@ -152,4 +152,7 @@ h3{
 .active{
     font-weight: bold;
     text-decoration: underline;
+}
+.resources h1{
+    text-align: justify;
 }
