@@ -130,7 +130,7 @@ h3{
 }
 .footerResources{
     position: absolute;
-    bottom: -300%;
+    bottom: -275%;
     left: 0;
     right: 0;
     text-align: center;
@@ -193,4 +193,10 @@ list-style-type: none;
 }
 .uniResourcesguilc a{
     color: #8E0027;
+}
+.localResources a{
+    color: #00713D;
+}
+.nationalResources a{
+    color: #B31942;
 }
