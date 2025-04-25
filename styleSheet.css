@@ -130,7 +130,7 @@ h3{
 }
 .footerResources{
     position: absolute;
-    bottom: -150%;
+    bottom: -300%;
     left: 0;
     right: 0;
     text-align: center;
@@ -181,4 +181,16 @@ list-style-type: none;
 }
 .uniResourcesgc a{
     color: #00713D;
+}
+.bcText h3{
+    color: #337ab7;
+}
+.uniResourcesbc a{
+    color: #337ab7;
+}
+.guilcText h3{
+    color: #8E0027;
+}
+.uniResourcesguilc a{
+    color: #8E0027;
 }
