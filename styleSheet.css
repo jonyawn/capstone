@@ -17,7 +17,7 @@ a{
 a:active{
     color: #710034;
     }
-a:visited{
+.navbar a:visited{
     color:white;
 }
 a:hover{
@@ -89,7 +89,7 @@ opacity: 50%;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 100%;
+    top: 90%;
     display: block;
 }
 h3{
@@ -124,7 +124,7 @@ h3{
 }
 .footerResources{
     position: absolute;
-    bottom: -50%;
+    bottom: -100%;
     left: 0;
     right: 0;
     text-align: center;
@@ -147,7 +147,6 @@ h3{
 }
 .aboutUs img{
     float: right;
-    border: solid;
 }
 .active{
     font-weight: bold;
@@ -155,4 +154,13 @@ h3{
 }
 .resources h1{
     text-align: justify;
+}
+.resources h3{
+list-style-type: none;
+}
+.resources a{
+    color: #00713D;
+}
+.uncgText h3{
+    color: #bec0c2;
 }
