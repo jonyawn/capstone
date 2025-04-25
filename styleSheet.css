@@ -52,9 +52,9 @@ opacity: 50%;
 }
 .slide > img{
     display: block;
-    width:100%;
+    width: 100%;
     object-position: center;
-    object-fit: cover;
+    object-fit: fill;
 }
 .slide[data-active]{
     opacity: 1;
@@ -92,6 +92,12 @@ opacity: 50%;
     top: 90%;
     display: block;
 }
+.homepage a{
+    color: #00713D;
+}
+.homepage h3{
+    text-align: center;    
+}
 h3{
     color: black;
 }
@@ -124,7 +130,7 @@ h3{
 }
 .footerResources{
     position: absolute;
-    bottom: -100%;
+    bottom: -150%;
     left: 0;
     right: 0;
     text-align: center;
@@ -158,9 +164,21 @@ h3{
 .resources h3{
 list-style-type: none;
 }
-.resources a{
-    color: #00713D;
-}
 .uncgText h3{
     color: #bec0c2;
+}
+.atText h3{
+    color: #FDB927;
+}
+.uniResourcesuncg a{
+    color: #bec0c2;
+}
+.uniResourcesat a{
+    color: #FDB927;
+}
+.greensborocollegeText h3{
+    color: #00713D;
+}
+.uniResourcesgc a{
+    color: #00713D;
 }
